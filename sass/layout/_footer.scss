@@ -1,0 +1,115 @@
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+}
+.footer-position {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.link-bottom {
+  display: inline-block;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: text-shadow 250ms var(--time-deploy);
+
+  &:hover,
+  &:focus {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+.footer-nav {
+  .item + .item {
+    margin-top: 9px;
+  }
+}
+.adr {
+  color: var(--rare-text-color);
+}
+
+.footer-title {
+  text-transform: uppercase;
+  color: var(--rare-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--rare-text-color);
+  margin-bottom: 20px;
+}
+
+.subscription-mail {
+  text-transform: uppercase;
+  color: var(--rare-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--rare-text-color);
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+.footer-link-item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.footer-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--rare-text-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms var(--time-deploy);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.footer-icon {
+  fill: currentColor;
+}
+.icon-send {
+  fill: var(--rare-text-color);
+  margin-left: 10px;
+}
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 570px;
+}
+.mail-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  padding-left: 12px;
+  margin-right: 12px;
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
