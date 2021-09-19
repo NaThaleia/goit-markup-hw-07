@@ -9,7 +9,7 @@
   @include font($fz: 14px, $lh: 1.72);
   color: var(--secondary-text-color);
 }
-.section-title {
+.section__title {
   font-weight: bold;
   @include font($fz: 36px, $lh: 1.16);
   text-align: center;
@@ -19,18 +19,18 @@
 .service {
   display: flex;
 
-  & .service-item {
+  & .service__item {
     width: calc((100% - 3 * 30px) / 4);
     margin-right: 30px;
   }
-  & .service-item:nth-child(4n) {
+  & .service__item:nth-child(4n) {
     margin-right: 0;
   }
 }
-.service-item {
+.service__item {
   box-sizing: border-box;
 }
-.servise-icon {
+.servise__icon {
   box-sizing: border-box;
   width: 270px;
   height: 120px;

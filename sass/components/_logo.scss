@@ -14,7 +14,7 @@
   margin-right: 93px;
   color: #000000;
 }
-.logo-bottom {
+.logo__footer {
   @include logo();
   margin-bottom: 20px;
   color: var(--rare-text-color);

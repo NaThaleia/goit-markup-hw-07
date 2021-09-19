@@ -11,10 +11,9 @@
   border-radius: 4px;
   padding: 40px;
 }
-.modal-close-btn {
+.modal__close-btn {
   position: absolute;
   @include flex();
-
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -28,8 +27,8 @@
 
 .modal-close-icon {
   transition: fill 250ms var(--time-deploy);
-  .modal-close-btn:hover &,
-  .modal-close-btn:focus & {
+  .modal__close-btn:hover &,
+  .modal__close-btn:focus & {
     fill: var(--accent-color);
   }
 }

@@ -1,17 +1,17 @@
-.client-list {
+.client__list {
   display: flex;
   margin-left: -30px;
 
-  & > .client-item {
+  & > .client__item {
     flex-basis: calc(100% / 6 - 30px);
     margin-left: 30px;
   }
 }
-.client-item {
+.client__item {
   height: 92px;
   width: 170px;
 }
-.client-link {
+.client__link {
   height: 100%;
   width: 100%;
   @include flex();
@@ -24,12 +24,12 @@
     border: 1px solid var(--accent-color);
   }
 }
-.client-icon {
+.client__icon {
   fill: currentColor;
   color: #afb1b8;
   transition: fill 250ms var(--time-deploy);
-  .client-link:hover &,
-  .client-link:focus & {
+  .client__link:hover &,
+  .client__link:focus & {
     fill: var(--accent-color);
   }
 }

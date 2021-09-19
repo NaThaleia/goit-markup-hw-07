@@ -25,11 +25,11 @@ button {
   font-family: inherit;
 }
 
-.button-primary {
+.button__primary {
   @include button();
 }
 
-.subscribe-button {
+.subscribe__button {
   @include button();
   position: absolute;
   display: flex;

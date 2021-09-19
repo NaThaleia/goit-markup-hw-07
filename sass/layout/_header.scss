@@ -7,22 +7,21 @@
 .top-nav {
   @include flex-center();
 }
-.site-nav {
+.header__nav {
   display: flex;
 
-  & .item + .item {
+  & .header__item + .header__item {
     margin-left: 50px;
   }
 }
-.right-nav {
+.header__nav-right {
   @include flex-center();
   margin-left: auto;
-
-  & .item + .item {
+  & .header__item + .header__item {
     margin-left: 30px;
   }
 }
-.contact-link {
+.contact__link {
   display: block;
   padding: 32px 0;
   font-weight: 500;
@@ -49,7 +48,7 @@
     border-radius: 2px;
   }
 }
-.adress-icon {
+.adress__icon {
   margin-right: 10px;
   fill: currentColor;
   transition: fill 250ms var(--time-deploy);
@@ -58,7 +57,7 @@
     fill: currentColor;
   }
 }
-.adress-link {
+.adress__link {
   @include flex-center();
   padding: 32px 0;
   font-weight: 500;
