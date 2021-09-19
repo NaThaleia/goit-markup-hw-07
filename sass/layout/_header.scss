@@ -1,13 +1,15 @@
+@mixin flex() {
+  display: flex;
+  align-items: center;
+}
 .header {
   border-bottom: 1px solid #ececec;
 }
 .nav {
-  display: flex;
-  align-items: center;
+  @include flex();
 }
 .top-nav {
-  display: flex;
-  align-items: center;
+  @include flex();
 }
 .site-nav {
   display: flex;
@@ -17,9 +19,8 @@
   }
 }
 .right-nav {
-  display: flex;
+  @include flex();
   margin-left: auto;
-  align-items: center;
 
   & .item + .item {
     margin-left: 30px;
@@ -63,8 +64,7 @@
   }
 }
 .adress-link {
-  display: flex;
-  align-items: center;
+  @include flex();
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
