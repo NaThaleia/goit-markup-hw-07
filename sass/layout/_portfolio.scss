@@ -1,11 +1,9 @@
 .style-scope-button {
   font-weight: 500;
-  font-size: 16px;
+  @include font($fz: 16px, $lh: 1.62);
   padding: 6px 22px;
-  line-height: 1.62;
   text-align: center;
   border-radius: 4px;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--background-context-color);
   border-color: transparent;
@@ -21,11 +19,9 @@
   }
 }
 .portfolio-buttons {
-  display: flex;
+  @include flex();
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 50px;
   .item + .item {
     margin-left: 8px;
@@ -34,16 +30,13 @@
 
 .title-adverb {
   font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
+  @include font($fz: 18px, $lh: 2);
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 .text {
   margin-top: 4px;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
+  @include font($fz: 16px, $lh: 1.87);
   color: var(--secondary-text-color);
 }
 .portfolio-items {
@@ -66,9 +59,7 @@
 }
 .text-hidden {
   position: absolute;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
+  @include font($fz: 18px, $lh: 1.56);
   top: 0;
   left: 0;
   padding: 63px 24px;

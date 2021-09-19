@@ -17,17 +17,13 @@
 }
 .desc {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex();
   height: 70px;
   bottom: 0;
   width: 100%;
   background: rgba(47, 48, 58, 0.8);
   color: var(--rare-text-color);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font($fz: 14px, $lh: 1.14);
   text-transform: uppercase;
 }

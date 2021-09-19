@@ -1,15 +1,11 @@
-@mixin flex() {
-  display: flex;
-  align-items: center;
-}
 .header {
   border-bottom: 1px solid #ececec;
 }
 .nav {
-  @include flex();
+  @include flex-center();
 }
 .top-nav {
-  @include flex();
+  @include flex-center();
 }
 .site-nav {
   display: flex;
@@ -19,7 +15,7 @@
   }
 }
 .right-nav {
-  @include flex();
+  @include flex-center();
   margin-left: auto;
 
   & .item + .item {
@@ -30,8 +26,7 @@
   display: block;
   padding: 32px 0;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font($fz: 14px, $lh: 1.14);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   transition: color 250ms var(--time-deploy);
@@ -64,11 +59,10 @@
   }
 }
 .adress-link {
-  @include flex();
+  @include flex-center();
   padding: 32px 0;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font($fz: 14px, $lh: 1.14);
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   transition: color 250ms var(--time-deploy);

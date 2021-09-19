@@ -121,6 +121,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   transition: color 250ms var(--time-deploy);
@@ -163,6 +164,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   transition: color 250ms var(--time-deploy);
@@ -317,6 +319,7 @@ button {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.03em;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--rare-text-color);
@@ -345,8 +348,8 @@ button {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--primary-text-color);
   margin-bottom: 50px;
 }
@@ -399,8 +402,8 @@ button {
 .desc {
   position: absolute;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 70px;
   bottom: 0;
   width: 100%;
@@ -516,8 +519,8 @@ button {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
@@ -573,17 +576,6 @@ button {
 }
 
 .footer-title {
-  text-transform: uppercase;
-  color: var(--rare-text-color);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: var(--rare-text-color);
-  margin-bottom: 20px;
-}
-
-.subscription-mail {
   text-transform: uppercase;
   color: var(--rare-text-color);
   font-weight: bold;
@@ -663,11 +655,11 @@ button {
 .style-scope-button {
   font-weight: 500;
   font-size: 16px;
-  padding: 6px 22px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
   text-align: center;
   border-radius: 4px;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--background-context-color);
   border-color: transparent;
@@ -683,10 +675,10 @@ button {
 
 .portfolio-buttons {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
 }
 
@@ -698,6 +690,7 @@ button {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.03em;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
@@ -809,8 +802,8 @@ button {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--primary-text-color);
   margin-bottom: 12px;
 }
@@ -860,6 +853,7 @@ button {
 .modal-comment::placeholder {
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -868,6 +862,7 @@ button {
   display: block;
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
   margin-bottom: 4px;
